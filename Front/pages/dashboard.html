@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="../styles/dashboard.css" rel="stylesheet">
     <title>Dashboard</title>
 </head>
+
 <body>
-    <div class="container">
-        <header
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom ">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a href="./index.html"><img src="../imgs/exclamation-lg.svg" style="height: 40px;"></a>
+    <header class="p-3 mb-3 border-bottom fs-4">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"> <a
+                    href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg> </a>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <a href="../pages/dashboard.html"><img class="ancora" height="50" src="../imgs/exclamation-lg.svg"></a>
+                    <li><a href="#" class="nav-link px-2 link-secondary ">Dashboard</a></li>
+                    <li><a href="#" class="nav-link px-2 link-body-emphasisa">Aulas</a></li>
+                </ul>
+
+                <div class="dropdown text-end"> <a href="#"
+                        class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false"> <img src="../imgs/person-circle.svg" alt="mdo"
+                            width="50" height="50" class="rounded-circle"> </a>
+                    <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">Configurações</a></li>
+                        <li><a class="dropdown-item" href="#">Perfil</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Desconectar</a></li>
+                    </ul>
+                </div>
             </div>
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-4">
-                <li><a href="#" class="nav-link px-2 link-secondary">Sobre nós</a></li>
-                <li><a href="./precos.html" class="nav-link px-2">Preços</a></li>
-            </ul>
-            <div class="col-md-3 text-end">
-                <a class="btn btn-outline-primary me-2 fs-5" href="./login.html">Já sou aluno</a>
-                <a class="btn btn-primary fs-5" href="#">Cadastrar</a>
-            </div>
-        </header>
-    </div>
+        </div>
+    </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
