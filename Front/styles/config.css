@@ -37,6 +37,8 @@
     width: 30%;
 }
 
-.input_nome{
-
+.imagem-perfil{
+    border-radius: 50%;
+    width: 50px;
+    height: 80px;
 }

@@ -14,10 +14,8 @@
             <div class="col-md-3 mb-2 mb-md-0">
                 <a href="./dashboard.html"><img src="../imgs/exclamation-lg.svg" style="height: 40px;"></a>
             </div>
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fs-4">
-                <li><a href="#" class="nav-link px-2 link-secondary">Sobre nós</a></li>
-                <li><a href="./precos.html" class="nav-link px-2">Preços</a></li>
-            </ul>
+            <img class="imagem-perfil" src="../imgs/person-circle.svg" style="height: 40px;">
+            <p class="nome-perfil" id="nome-perfil">Nome</p>
         </header>
     </div>
 
@@ -27,18 +25,22 @@
             <div class="config_nome">
                 <h2 class="titulo_config">Alterar nome de usuário</h2>
                 <input class="input_nome" type="text" id="novo_nome_usuario" placeholder="Digite o novo nome de usuário:">   
-                <button class="btn btn-primary salvar">Salvar nome</button>
+                <button id="botao-nome" class="btn btn-primary salvar">Salvar nome</button>
             </div>
             <div class="config_imagem">
                 <h2 class="titulo_config">Alterar foto de perfil</h2>
-                <input type="file" accept="image.png, image.jpeg">
-                <button class="btn btn-primary">Salvar foto</button>
+                <input type="file" id="input-foto" accept="image/png, image/jpeg">
+                <button id="botao-foto" class="btn btn-primary">Salvar foto</button>
+            </div>
+
+            <div class="voltar">
+                <a href="./dashboard.html" class="btn btn-outline-primary">voltar</a>
             </div>
         </div>
 
 
 
     </div>
-    
+    <script src="../scripts/perfil-config.js"></script>
 </body>
 </html>
