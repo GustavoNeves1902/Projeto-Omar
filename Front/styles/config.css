@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.titulo_config{
+    font-size: 20px;
+}
+
+.configuracao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.config_nome{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.config_imagem{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.input_nome{
+
+}
