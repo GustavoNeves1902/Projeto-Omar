@@ -24,10 +24,13 @@
                     <li><a href="./aulas.html" class="nav-link px-2 link-body-emphasisa link-secondary">Aulas</a></li>
                 </ul>
 
-                <div class="dropdown text-end"> <a href="#"
-                        class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
-                        data-bs-toggle="dropdown" aria-expanded="false"> <img id="imagem-perfil" src="../imgs/person-circle.svg" alt="mdo"
-                            width="50" height="50" class="rounded-circle"> </a>
+                <div class="dropdown text-end"> 
+                        <p class="perfil-nome fs-5">NOME</p>
+                        <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false"> 
+                                <img id="imagem-perfil" src="../imgs/person-circle.svg" alt="mdo" width="50" height="50" class="rounded-circle"> 
+                        </a>
+
                     <ul class="dropdown-menu text-small">
                         <li><a class="dropdown-item" href="./perfil-config.html">Configurações</a></li>
                         <li><a class="dropdown-item" href="./perfil.html">Perfil</a></li>
@@ -40,6 +43,35 @@
             </div>
         </div>
     </header>
+
+    <main class="conteudo">
+
+        <div class="container">
+            <div class="progresso py-3" style="width: 100%; background-color:beige">
+                <p class="progresso-titulo fs-3">% Atividades feitas</p>
+                <progress class="barra-progresso" max="10" value="8"></progress>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="linha">
+                <div class="estatisticas mx-5">
+                    <p class="estatisticas-titulo">Total de listas tentadas:</p>
+                </div>
+                <div class="estatisticas mx-5">
+                    <p class="estatisticas-titulo">Tempo médio por lista:</p>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="estatisticas mx-5">
+                    <p class="estatisticas-titulo">Tempo médio total:</p>
+                </div>
+                <div class="estatisticas mx-5">
+                    <p class="estatisticas-titulo">Total de listas tentadas:</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
