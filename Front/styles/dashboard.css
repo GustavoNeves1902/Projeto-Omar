@@ -55,3 +55,7 @@ body{
     align-items: center;
     gap: 10px;
 }
+
+.perfil-nome{
+    margin: 0;           /* remove margem padrão */
+}

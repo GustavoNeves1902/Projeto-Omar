@@ -5,17 +5,21 @@
     align-items: center;
 }
 
-.aula{
-    background-color: rgb(186, 220, 240);
-    padding: 5px 500px;
-    border-radius: 10px;
-    text-align: center;
-    justify-content: center;
+.aula {
+    /*background-color: rgb(186, 220, 240);*/
+    padding: 10px 20px; /* topo/baixo 10px, laterais 20px */
+
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+
+    width: 100%; /* garante que a div ocupe toda a largura do container */
+    max-width: 800px; /* opcional, para limitar largura */
     text-align: center;
 }
 
 li{
     list-style-type: none;
+    margin: 20px;
 }
 
 a{
@@ -29,4 +33,13 @@ a{
     flex-direction: row;
     align-items: center;
     gap: 10px;
+}
+
+.perfil-nome{
+    margin: 0;           /* remove margem padrão */
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
