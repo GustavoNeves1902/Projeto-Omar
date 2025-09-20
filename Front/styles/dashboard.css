@@ -48,3 +48,10 @@ body{
     width: 500px;
     background-color: aqua;
 }
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}

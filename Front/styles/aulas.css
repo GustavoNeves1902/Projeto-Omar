@@ -1,14 +1,16 @@
 .conteudo{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 20px;
     align-items: center;
 }
 
 .aula{
     background-color: rgb(186, 220, 240);
     padding: 5px 500px;
-    border-radius: 50%;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -20,4 +22,11 @@ a{
     text-decoration: none;
     color: black;
     text-align: center;
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
